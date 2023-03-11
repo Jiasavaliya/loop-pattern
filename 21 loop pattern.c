@@ -1,14 +1,14 @@
 #include<stdio.h>
-int main(){
-	char r, c;
-	char a='A';
-	char e='E';
+main(){
+	char r='A';
+	char c='E';
+	
+	
 	for(r='A'; r<='E'; r++){
-		for(c='A'; c<=r; c++){
-			printf("%c",c);
-		}
-		printf("\n");
-		
+	for(c='A'; c<=r; c++){
+		printf("%c",c);
 	}
-	return 0;
+	printf("\n");
 }
+}
+
